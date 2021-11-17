@@ -1,0 +1,39 @@
+{
+  "produtos": [
+    {
+      "nome": "Kit Esmalte Risqué Deusas Inspiradoras 6 Cores",
+      "preco": "35,90",
+      "marca": "Risqué",
+      "codigo": "SKU 795854",
+      "id": 1
+    },
+    {
+      "nome": "Batom Líquido Revlon Matte Ultra HD Addiction",
+      "preco": "15,90",
+      "marca": "Revlon",
+      "codigo": "SKU 122103",
+      "id": 2
+    },
+    {
+      "nome": "Pó Iluminador Compacto Bruna Tavares BT Champagne",
+      "preco": "22,99",
+      "marca": "Bruna Tavares",
+      "codigo": "SKU 789208",
+      "id": 3
+    },
+    {
+      "nome": "BB Cream L'Oréal Paris Dermo Expertise Clara FPS20 30ml",
+      "preco": "35,99",
+      "marca": "L'Oréal Paris",
+      "codigo": "SKU 765336",
+      "id": 4
+    },
+    {
+      "nome": "Jean Paul Gaultier So Scandal Eau De Parfum 50ml",
+      "preco": "489,00",
+      "marca": "Jean Paul",
+      "codigo": "SKU 793342",
+      "id": 5
+    }
+  ]
+}
