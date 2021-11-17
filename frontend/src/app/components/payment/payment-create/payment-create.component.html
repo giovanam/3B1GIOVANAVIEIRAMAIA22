@@ -1,0 +1,28 @@
+<mat-card>
+  <mat-card-title class= "title">Novo Produto</mat-card-title>
+  <form>
+      <mat-form-field>
+          <input matInput placeholder="Nome"
+              [(ngModel)]="payment.nome" name="nome">
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Preço (R$)"
+              [(ngModel)]="payment.preco" name="preco">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Marca"
+            [(ngModel)]="payment.marca" name="marca">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Código"
+            [(ngModel)]="payment.codigo" name="codigo">
+    </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="createPayment()" class="salvar">
+      Salvar
+  </button>
+  
+  <button mat-raised-button (click)="cancel()" class="cancelar">
+      Cancelar
+  </button>
+</mat-card>
